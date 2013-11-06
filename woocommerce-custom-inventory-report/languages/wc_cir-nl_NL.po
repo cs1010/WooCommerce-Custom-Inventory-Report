@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wc_cir 1.0\n"
+"POT-Creation-Date: 2013-11-06 21:59+0100\n"
+"PO-Revision-Date: 2013-11-06 22:00+0100\n"
+"Last-Translator: Corne Schipper <corne.schipper@gmail.com>\n"
+"Language-Team: Corné Schipper <corne.schipper@gmail.com>\n"
+"Language: en_EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../woocommerce-c-i-r.php:43 ../woocommerce-c-i-report.php:93
+msgid "Custom Inventory Report"
+msgstr "Voorraad rapport"
+
+#: ../woocommerce-c-i-r.php:64 ../woocommerce-c-i-report.php:100
+#: ../woocommerce-c-i-report.php:142
+msgid "Preferred stock"
+msgstr "Gewenste voorraad"
+
+#: ../woocommerce-c-i-r.php:65 ../woocommerce-c-i-r.php:71
+msgid "Leave blank for 0"
+msgstr "Laat leeg voor 0"
+
+#: ../woocommerce-c-i-r.php:66
+msgid "How many are preferred to have on stock."
+msgstr "Hoeveelheid gewenste voorraad."
+
+#: ../woocommerce-c-i-r.php:70 ../woocommerce-c-i-report.php:100
+#: ../woocommerce-c-i-report.php:142
+msgid "Backorder"
+msgstr "Nabestelling"
+
+#: ../woocommerce-c-i-r.php:72
+msgid "How many do you have in backorder."
+msgstr "Hoeveelheid in nabestelling."
+
+#: ../woocommerce-c-i-report.php:98
+msgid "Low stock"
+msgstr ""
+
+#: ../woocommerce-c-i-report.php:100 ../woocommerce-c-i-report.php:142
+msgid "Product"
+msgstr "Product"
+
+#: ../woocommerce-c-i-report.php:100 ../woocommerce-c-i-report.php:142
+msgid "Stock"
+msgstr "Voorraad"
+
+#: ../woocommerce-c-i-report.php:119 ../woocommerce-c-i-report.php:158
+msgid "SKU"
+msgstr ""
+
+#: ../woocommerce-c-i-report.php:131
+msgid "No products are low in stock."
+msgstr ""
+
+#: ../woocommerce-c-i-report.php:140
+msgid "Out of stock"
+msgstr ""
+
+#: ../woocommerce-c-i-report.php:166
+msgid "Marked out of stock"
+msgstr ""
+
+#: ../woocommerce-c-i-report.php:173
+msgid "No products are out in stock."
+msgstr ""
