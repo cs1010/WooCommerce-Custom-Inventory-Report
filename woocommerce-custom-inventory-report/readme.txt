@@ -1,5 +1,5 @@
-=== WooCommerce Acme ===
-Contributors:
+=== WooCommerce Custom Inventory Report ===
+Contributors: Corné Schipper
 Tags: woocommerce
 Stable tag: 1.0.0
 
