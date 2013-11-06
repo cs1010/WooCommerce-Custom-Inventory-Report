@@ -9,7 +9,7 @@ Report is visible in the Woocommerce tree.
 
 I created this because the default WooCommerce settings allows only a fixed value for out/low of stock reporting.
 
-I am not a programmer but know some wordpress/woocommerce as shop owner. 
+I am not a programmer but know some wordpress/woocommerce as shop owner. Feel free to comment/update/improve it.
 
 Use of this plugin is without warranties.
 
