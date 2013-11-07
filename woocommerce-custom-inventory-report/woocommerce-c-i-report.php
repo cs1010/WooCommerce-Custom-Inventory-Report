@@ -105,8 +105,8 @@ global $start_date, $end_date, $woocommerce, $wpdb;
 
 							$stock 	= (int) get_post_meta( $product_id, '_stock', true );
 							$sku	= get_post_meta( $product_id, '_sku', true );
-							$ds	= (int) get_post_meta( $product_id, 'des_stock', true );
-							$io	= (int) get_post_meta( $product_id, 'inv_order', true );
+							$ds	= (int) get_post_meta( $product_id, 'wc_cir_des_stock', true );
+							$io	= (int) get_post_meta( $product_id, 'wc_cir_inv_order', true );
 
 							if ( $stock <= $nostockamount || in_array( $product_id, array_keys( $out_of_stock_status_products ) ) )
 								continue;
@@ -147,7 +147,7 @@ global $start_date, $end_date, $woocommerce, $wpdb;
 
 							$stock 	= get_post_meta( $product_id, '_stock', true );
 							$sku	= get_post_meta( $product_id, '_sku', true );
-							$io	= (int) get_post_meta( $product_id, 'inv_order', true );
+							$io	= (int) get_post_meta( $product_id, 'wc_cir_inv_order', true );
 
 							if ( $stock > $nostockamount && ! in_array( $product_id, array_keys( $out_of_stock_status_products ) ) )
 								continue;

@@ -60,13 +60,13 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 				add_action( 'woocommerce_product_options_stock_fields', 'wc_custom_product_inventory_field' );
 					function wc_custom_product_inventory_field() {
     				woocommerce_wp_text_input( array( 
-						'id' => 'des_stock', 
+						'id' => 'wc_cir_des_stock', 
 						'label' => __( 'Preferred stock',  'wc_cir' ),
 						'placeholder' => __( 'Leave blank for 0', 'wc_cir' ),
 						'description' => __( 'How many are preferred to have on stock.', 'wc_cir' )
 					) );
 					woocommerce_wp_text_input( array( 
-						'id' => 'inv_order', 
+						'id' => 'wc_cir_inv_order', 
 						'label' => __( 'Backorder', 'wc_cir' ),
 						'placeholder' => __( 'Leave blank for 0', 'wc_cir' ) ,
 						'description' => __( 'How many do you have in backorder.', 'wc_cir' )
@@ -79,9 +79,9 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 					if ( defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE )
 						return;
 					
-						if ( is_numeric( $_POST['des_stock'] ) or is_null( $_POST['des_stock'] ) )
-						update_post_meta( $product_id, 'des_stock', $_POST['des_stock'] );
-						update_post_meta( $product_id, 'inv_order', $_POST['inv_order'] );	
+						if ( is_numeric( $_POST['wc_cir_des_stock'] ) or is_null( $_POST['wc_cir_des_stock'] ) )
+						update_post_meta( $product_id, 'wc_cir_des_stock', $_POST['wc_cir_des_stock'] );
+						update_post_meta( $product_id, 'wc_cir_inv_order', $_POST['wc_cir_inv_order'] );	
 					}	
 			}
 			
